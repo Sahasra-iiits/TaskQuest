@@ -1,0 +1,109 @@
+# 🚀 TaskQuest v1
+
+TaskQuest is a gamified productivity tracker that helps users manage tasks while earning points based on task priority. Unlike a traditional to-do list, TaskQuest introduces a reward system to make productivity more engaging and motivating.
+
+## ✨ Features
+
+### 📋 Task Management
+
+- Add new tasks
+- Delete tasks
+- Mark tasks as completed
+- Visual checkbox indicator for completed tasks
+
+### 🎯 Priority System
+
+Assign priorities to tasks:
+
+- Low
+- Medium
+- High
+
+Each priority level awards different points upon completion.
+
+### ⭐ XP / Score System
+
+- Earn points by completing tasks
+- Higher-priority tasks give more points
+- Total score is updated dynamically
+
+### 💾 Local Storage
+
+- Tasks persist after page refresh
+- Completion status is saved
+- Priority information is saved
+- Score is retained between sessions
+
+---
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- Local Storage API
+
+---
+
+## 🎮 Current Scoring System
+
+| Priority | Points |
+| -------- | ------ |
+| Low      | 10 XP  |
+| Medium   | 20 XP  |
+| High     | 30 XP  |
+
+---
+
+## 🔄 Upcoming Features
+
+### 🏅 Gamification
+
+- Badge system
+- XP progress bar
+
+### 📈 Productivity Tracking
+
+- Weekly productivity analytics
+- Most productive day insights
+- Most productive month insights
+
+### 📅 Calendar Integration
+
+- View tasks by date
+- Daily score tracking
+- Task history
+
+### ⏳ Smart Task Handling
+
+- Carry-forward incomplete tasks
+- Reduced XP for delayed completion
+
+### 🔔 Smart Reminders
+
+- Pending task alerts
+- High-priority task notifications
+
+### 📝 Weekly Planning Board
+
+- Weekly goals
+- Progress tracking
+- Bonus rewards
+
+---
+
+## 🎯 Project Goal
+
+TaskQuest aims to transform task management into an engaging experience by combining productivity tools with gamification concepts such as points, badges, and achievements.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👩‍💻 Author
+
+**Sahasra Gubba**
