@@ -2,6 +2,14 @@
 
 TaskQuest is a gamified productivity tracker that helps users manage tasks while earning points based on task priority. Unlike a traditional to-do list, TaskQuest introduces a reward system to make productivity more engaging and motivating.
 
+## 👨‍💻 About This Project
+
+TaskQuest is a personal project built completely from scratch as part of my journey to become a better developer.
+
+Every feature—from task management and priority handling to XP, streaks, and local storage integration—was implemented by me through learning, exploring documentation, and solving challenges independently.
+
+This project is not just a modified to-do app; it represents my growth as a developer and my commitment to building things by understanding how they work under the hood.
+
 ## ✨ Features
 
 ### 📋 Task Management
