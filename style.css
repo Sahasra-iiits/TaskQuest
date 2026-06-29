@@ -102,7 +102,7 @@ button {
 .task_op input {
   width: 50px;
 }
-.selectBox {
+.selectBox, .selectBox>option {
   padding: 10px;
   color: #150e16;
 }
