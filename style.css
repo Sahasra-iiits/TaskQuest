@@ -1,7 +1,28 @@
 * {
   margin: 0px;
   padding: 0px;
+  color: #f2ecf3;
+  font-family: "Spectral SC", serif;
 }
+.cursor {
+  width: 15px;
+  height: 15px;
+  border: 2px solid #c3a7c8;
+  border-radius: 50%;
+  position: absolute;
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+}
+/* .cursor::after {
+  background-color: #c3a7c8;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+} */
 body,
 .pending_tasks,
 .comp_tasks {
@@ -13,14 +34,18 @@ body,
 }
 body {
   padding-top: 60px;
+  background-color: #150e16;
 }
 h1 {
   margin-bottom: 50px;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 .inputBox input {
   padding: 10px;
   width: 300px;
+  color: #150e16;
 }
 .inputBox {
   display: flex;
@@ -34,10 +59,11 @@ h1 {
 }
 button {
   color: white;
-  background-color: brown;
-  height: 40px;
-  width: 40px;
-  font-size: large;
+  background-color: #643f41;
+  border: none;
+  height: 44px;
+  width: 60px;
+  font-size: 2rem;
   cursor: pointer;
 }
 .del {
@@ -47,17 +73,23 @@ button {
 .task_box {
   padding: 15px;
   width: 450px;
-  border-left: 5px solid brown;
+  border-left: 8px solid #735678;
   border-radius: 5px;
-  background-color: blanchedalmond;
+  background-color: #c3a7c8;
+  color: #150e16;
   margin: 2px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+.task_box > p {
+  color: #150e16;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
 .green {
   text-decoration: line-through;
-  border-left: 5px solid green;
+  border-left: 8px solid green;
   background-color: rgb(185, 236, 185);
 }
 .task_op {
@@ -65,12 +97,14 @@ button {
   flex-direction: row;
   justify-content: space-between;
   width: 150px;
+  height: 25px;
 }
 .task_op input {
   width: 50px;
 }
 .selectBox {
   padding: 10px;
+  color: #150e16;
 }
 .pending,
 .completed {
@@ -94,16 +128,30 @@ button {
   font-size: 3rem;
   text-align: center;
 }
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 5px 0px;
+  background-color: hsla(355, 36%, 65%, 0.2);
+}
 
 @media (max-width: 600px) {
+  h1 {
+    font-size: 2.5rem;
+  }
   .pending,
   .completed {
     width: 400px;
     margin: 6px;
+    font-size: 0.8rem;
   }
   .task_box {
     padding: 10px;
     width: 350px;
+    font-size: 0.8rem;
+  }
+  .task_op {
+    height: 20px;
   }
   .inputBox input {
     width: 230px;
@@ -114,11 +162,17 @@ button {
     font-size: 2rem;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 440px) {
   .pending,
   .completed {
     width: 350px;
     margin: 6px;
+  }
+  .selectBox {
+    width: 70px;
+  }
+  button {
+    width: 70px;
   }
   .task_box {
     padding: 10px;

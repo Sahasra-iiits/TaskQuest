@@ -1,3 +1,13 @@
+//Javascript code for Cursor
+const cursor = document.querySelector(".cursor");
+document.addEventListener("mousemove", (e) => {
+  cursor.setAttribute(
+    "style",
+    "top: " + (e.pageY-16) + "px;" + "left: " + (e.pageX-16) + "px;",
+  );
+});
+
+//Main javascript code starts here
 let tasks = [];
 if (localStorage.getItem("tasks") == null)
   localStorage.setItem("tasks", JSON.stringify([]));
