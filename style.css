@@ -144,7 +144,10 @@ button {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+  .ins{
+    font-size: 0.8rem;
   }
   .pending,
   .completed {
@@ -184,5 +187,8 @@ button {
   .task_box {
     padding: 10px;
     width: 300px;
+  }
+  .inputBox input {
+    width: 200px;
   }
 }
