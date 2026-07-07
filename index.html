@@ -3,40 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TaskQuest - 1.0</title>
-    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+    <title>TaskQuest - 2.0</title>
+    <link
+      rel="shortcut icon"
+      href="/src/assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,500;0,600;0,700;0,800;1,500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="cursor"></div>
-    <h1><b>TASKQUEST - 1.0</b></h1>
-    <div class="inputBox">
-      <select name="Priority" class="selectBox">
-        <option value="High">High</option>
-        <option value="Medium">Medium</option>
-        <option value="Low">Low</option>
-      </select>
-      <input type="text" placeholder="Enter a task"/>
-      <button>+</button>
-    </div>
-    <p class="ins">High +30XP | Medium +20XP | Low +10XP</p>
-    <div class="pending">
-      <h3>Pending Tasks</h1>
-        <div class="pending_tasks"></div>
-    </div>
-    <div class="completed">
-      <h3>Completed Tasks</h1>
-        <div class="comp_tasks"></div>
-    </div>
-    <div class="score_box">
-      <p class="score_tag">Score: 0XP</p>
-    </div>
-    <div class="footer">
-      Made by Sahasra
-    </div>
-    <script src="main.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

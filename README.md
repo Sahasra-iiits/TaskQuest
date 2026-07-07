@@ -10,7 +10,26 @@ Every feature—from task management and priority handling to XP, streaks, and l
 
 This project is not just a modified to-do app; it represents my growth as a developer and my commitment to building things by understanding how they work under the hood.
 
-## ✨ Features
+## 📦 Releases
+
+### 🚀 v1.0 – Initial Release
+
+- Add, delete, and manage tasks
+- Dynamic scoreboard
+- Local Storage support
+
+### 🎨 v1.1 – UI Improvements
+
+- Refined user interface
+- Improved responsiveness and overall user experience
+
+### ⚛️ v2.0 – React Migration
+
+- Migrated from Vanilla JavaScript to React
+- Component-based architecture
+- Improved code organization and maintainability
+
+## ✨Current Features
 
 ### 📋 Task Management
 
@@ -42,17 +61,6 @@ Each priority level awards different points upon completion.
 - Priority information is saved
 - Score is retained between sessions
 
----
-
-## 🛠️ Built With
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
-- Local Storage API
-
----
-
 ## 🎮 Current Scoring System
 
 | Priority | Points |
@@ -60,8 +68,6 @@ Each priority level awards different points upon completion.
 | Low      | 10 XP  |
 | Medium   | 20 XP  |
 | High     | 30 XP  |
-
----
 
 ## 🔄 Upcoming Features
 
@@ -98,19 +104,13 @@ Each priority level awards different points upon completion.
 - Progress tracking
 - Bonus rewards
 
----
-
 ## 🎯 Project Goal
 
 TaskQuest aims to transform task management into an engaging experience by combining productivity tools with gamification concepts such as points, badges, and achievements.
 
----
-
 ## 📜 License
 
 This project is licensed under the MIT License.
-
----
 
 ## 👩‍💻 Author
 
